@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { cn } from '@/lib/utils';
 import Container from '@/components/ui/Container';
@@ -6,7 +5,7 @@ import ProductCard, { Product } from '@/components/ui/ProductCard';
 import { fadeIn, fadeInUp } from '@/lib/animations';
 import { ArrowRight, Filter, ArrowDownUp, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import CustomBadge from '@/components/ui/Badge';
+import CustomBadge from '@/components/ui/CustomBadge';
 
 const ComparisonSection = () => {
   const [favoritedProducts, setFavoritedProducts] = useState<string[]>([]);

@@ -5,7 +5,7 @@ import Container from '@/components/ui/Container';
 import { Button } from '@/components/ui/button';
 import SearchBar from '@/components/ui/SearchBar';
 import { ShoppingBag, Zap, ShieldCheck } from 'lucide-react';
-import CustomBadge from '@/components/ui/Badge';
+import CustomBadge from '@/components/ui/CustomBadge';
 import { floatingAnimation } from '@/lib/animations';
 
 const Hero = () => {

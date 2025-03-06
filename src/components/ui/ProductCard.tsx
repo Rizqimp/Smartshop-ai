@@ -1,9 +1,8 @@
-
-import { cn } from '@/lib/utils';
 import React from 'react';
+import { cn } from '@/lib/utils';
 import { ShoppingCart, Heart, Star } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import CustomBadge from './Badge';
+import CustomBadge from './CustomBadge';
 
 export interface Product {
   id: string;
